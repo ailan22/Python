@@ -1,35 +1,26 @@
 #Ejercicio 2.10
-"""
-import csv
-archivo = open('../Data/camion.csv')
-rows = csv.reader(archivo)
-headers = next(rows)
-for i in rows:
-    print(i)
-
-archivo.close()
-"""
 import csv
 import sys
-def costo_camion (archivo):
-    with open(archivo, 'rt') as archivo:
-        rows = csv.reader(archivo)
+def costo_camion(archivo):
+    with open(archivo, 'rt') as f:
+        rows = csv.reader(f)
         headers = next(rows)
-        precios = []
-        for i in archivo:
-            row = i.split(',')
-            cajones = int(row[1])
-            precio = float(row[2])
-            precios.append([float(row[1]) * float(row[2])])
-            print(precios)
-            suma = 0
-        for elemento in precios:
-            suma += elemento
-            print('costo total: ', suma)
-        else:
-            print('Cantidad de cajones vacías')
+        total = []
+        for i in f:
+            try:
+                linea = i.split(',')
+                costo_producto = (int(linea[1]) * float(linea[2]))
+                total.append(costo_producto)
+                suma_total = 0
+                for elemento in total:
+                    suma_total += elemento
+                print('Costo total por producto', round(costo_producto, 2))
+            except ValueError:
+                print('Falta un valor')
+    print('COSTO TOTAL', suma_total)
 if len (sys.argv) == 2:
     archivo = sys.argv[1]
 else:
-    archivo = '../Data/missing.csv'
-costo_camion('../Data/missing.csv')
+    archivo = '../Data/camion.csv'
+
+costo_total = costo_camion('../Data/camion.csv')

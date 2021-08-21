@@ -9,8 +9,8 @@ def buscar_precio():
         for i in rows:
             try:
                 if(producto == i[0]):
-                    print(f'El precio de un cajón de {producto} es: ', i[1])
+                    print('El precio de un cajón de', producto, 'es: ', i[1])
                     break
             except:
-                print(f'{producto} no figura en el listado de precios.')
+                print(producto, 'no figura en el listado de precios.')
 buscar_precio()
