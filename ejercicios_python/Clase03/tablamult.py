@@ -1,3 +1,4 @@
+#Ejercicio 3.17
 print(' '*10, end='')
 for i in range(0, 10):
     print (f'{i:^4d}', end='')

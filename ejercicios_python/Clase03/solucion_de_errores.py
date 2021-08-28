@@ -12,12 +12,3 @@ def tiene_a(expresion):
 tiene_a('UNSAM 2020')
 tiene_a('abracadabra')
 tiene_a('La novela 1984 de George Orwell')
-
-"""
-fruta = 'La novela 1984 de George Orwell'
-indice = 0
-while indice < len(fruta):
-    letra = fruta[indice]
-    indice += 1
-print(letra)
-"""

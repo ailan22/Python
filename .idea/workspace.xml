@@ -6,6 +6,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python" beforeDir="false" afterPath="$PROJECT_DIR$/Python" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/ejercicio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/ejercicio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios_python/Clase03/costo_camion.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios_python/Clase03/informe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios_python/Clase03/solucion_de_errores.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios_python/Clase03/solucion_de_errores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios_python/Clase03/tablamult.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios_python/Clase03/tablamult.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +38,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.tablamult">
-    <configuration name="costo_camion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Repaso" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -47,7 +50,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicios_python/Clase03/costo_camion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicios_python/Clase03/Repaso.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -56,7 +59,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="costo_camion_clase1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="costo_camion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +67,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicios_python/Clase01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicios_python/Clase02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicios_python/Clase01/costo_camion_clase1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicios_python/Clase02/costo_camion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,6 +93,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicios_python/Clase02/informe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="informe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicios_python/Clase03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicios_python/Clase03/informe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,9 +167,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.tablamult" />
-        <item itemvalue="Python.costo_camion" />
+        <item itemvalue="Python.Repaso" />
         <item itemvalue="Python.informe" />
-        <item itemvalue="Python.costo_camion_clase1" />
+        <item itemvalue="Python.costo_camion" />
         <item itemvalue="Python.solucion_de_errores" />
       </list>
     </recent_temporary>
@@ -160,6 +184,17 @@
       <updated>1629562992203</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
