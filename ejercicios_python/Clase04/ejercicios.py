@@ -6,6 +6,8 @@ def add(x, y):
 
 print(add(2, 'f'))
 """
+import types
+
 """
 def invertir_lista(lista):
     '''Recibe una lista L y la develve invertida.'''
@@ -56,7 +58,7 @@ def busqueda_con_index(lista, e):
 
 busqueda_con_index([1, 4, 54, 3, 0, -1], 1)
 """
-
+"""
 def busqueda_lineal(lista, e):
     '''Si e está en la lista devuelve su posición, de lo
     contrario devuelve -1.
@@ -70,3 +72,36 @@ def busqueda_lineal(lista, e):
     print(pos)
 
 busqueda_lineal([1, 4, 54, 3, 0, -1], 4)
+
+"""
+"""
+import csv
+f = open('../Data/camion.csv')
+rows = csv.reader(f)
+headers = next(rows)
+row = next(rows)
+for num_fila, fila in enumerate(rows, start=1):
+    record = dict(zip(headers, fila))
+    print(record)
+#for line in rows:
+#    r = list(zip(types, row))
+#    print(r)
+"""
+import csv
+f = open('../Data/dowstocks.csv')
+rows = csv.reader(f)
+headers = next(rows)
+row = next(rows)
+print(headers)
+
+def fecha_a_tupla(headers):
+    indexs = [] #creo una lista donde almaceno las posiciones de "/"
+    i=0
+    while i<len(f):
+        if f[i] == "/": #"Itero entre la fecha para almacenar las posiciones de "/"
+            indexs.append(i)
+        i=i+1
+    new_fecha = (int(headers[:indexs[0]]),int(headers[indexs[0]+1:indexs[1]]),int(headers[indexs[1]+1:])) #Almaceno en tupla la fecha sin "/"
+    print(new_fecha)
+
+fecha_a_tupla(headers)

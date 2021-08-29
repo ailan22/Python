@@ -3,7 +3,7 @@ def invertir_lista(lista):
     invertida = []
     for e in range(1, len(lista) + 1, 1):
         invertida.append(lista[-e])
-    print(invertida)
+    return invertida
 
 
 invertir_lista([1, 2, 3, 4, 5])
